@@ -1,0 +1,12 @@
+<div class="flex">
+  <div class="leftBar">
+    <ul>
+      <li *ngFor="let route of routes" (click)="navigateTo(route.path)">
+        {{route.viewValue}}
+      </li>
+    </ul>
+  </div>
+  <div class="rightBar">
+    <router-outlet></router-outlet>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+.card{
+  width: 280px;
+  background-color: #4f4f4f;
+  height: 280px;
+  margin: 5px;
+  color: white;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

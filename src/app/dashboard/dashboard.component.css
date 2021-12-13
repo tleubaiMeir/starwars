@@ -1,0 +1,19 @@
+.leftBar{
+  width: 20%;
+  height: 95vh;
+  border: deepskyblue 10px solid;
+}
+.leftBar li {
+  margin-bottom: 50px;
+  font-size: xx-large;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightBar{
+  width: 100%;
+  height: 95vh;
+  border: deepskyblue 10px solid;
+}
