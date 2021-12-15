@@ -10,6 +10,6 @@ export class TableHttpService {
   constructor(private http: HttpClient) { }
 
   public getData(): Observable<any>{
-    return this.http.get('https://swapi.dev/api/starships')
+    return this.http.get('http://api.icndb.com/jokes/random/20')
   }
 }

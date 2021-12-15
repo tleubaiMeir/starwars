@@ -1,12 +1,13 @@
 .leftBar{
-  width: 20%;
-  height: 95vh;
+  width: 10%;
+  height: 115vh;
   border: deepskyblue 10px solid;
 }
 .leftBar li {
   margin-bottom: 50px;
   font-size: xx-large;
 }
+
 .flex{
   display: flex;
   justify-content: space-between;
@@ -14,6 +15,7 @@
 
 .rightBar{
   width: 100%;
-  height: 95vh;
+  height: 100%;
   border: deepskyblue 10px solid;
 }
+

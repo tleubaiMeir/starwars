@@ -7,7 +7,7 @@ import {TableHttpService} from "./table-http.service";
   styleUrls: ['./table.component.css']
 })
 export class TableComponent implements OnInit {
-  displayedColumns: string[] = ['name', 'cost_in_credits', 'created', 'max_atmosphering_speed', 'hyperdrive_rating'];
+  displayedColumns: string[] = ['id', 'joke'];
   dataSource = [
 
   ];
@@ -17,7 +17,7 @@ export class TableComponent implements OnInit {
   ngOnInit(): void {
     this.service.getData().subscribe( (res: any) => {
       console.log(res);
-      this.dataSource = res.results;
+      this.dataSource = res.value;
     })
   }
 
